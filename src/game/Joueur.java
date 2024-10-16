@@ -6,7 +6,7 @@ public class Joueur {
 
     public Joueur(String nom, String choix) {
         this.nom = nom;
-        this.choix = "";
+        this.choix = choix;
     }
 
     public String getNom() {
@@ -20,4 +20,5 @@ public class Joueur {
     public String getChoix() {
         return choix;
     }
+
 }
